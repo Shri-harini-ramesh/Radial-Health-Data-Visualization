@@ -339,7 +339,7 @@ const RadialHealthGraph = () => {
         })}
       </ZoomableSvg>
 
-      {/* Conditionally render either the RadialChart or LineChart based on the selected metric */}
+      {/* Conditionall render either the RadialChart or LineChart based on the selected metric */}
       {selectedMetric !== null && (
         <ChartWrapper
           style={{
